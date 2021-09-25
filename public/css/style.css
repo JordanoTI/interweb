@@ -1,0 +1,101 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    min-height: 100%;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #ff2f20;
+    border: 2px solid #ad1e14;
+}
+
+.btn-primary:hover {
+    background-color: #ad1e14;
+    border-color: #ad1e14;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+#navbar a {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    color: #ff2f20;
+}
+
+#navbar img {
+    width: 50px;
+}
+
+#titleCenter {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+}
+
+#titleCenter h1 {
+    color:#ff2f20;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#url-registration-container {
+    padding: 30px;
+}
+
+#url-registration-container label {
+    font-weight: bold;
+}
+
+#url-registration-container input {
+    font-size: 12px;
+}
+
+.msg {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #ff2f20;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+margin-bottom: 0;
+}
